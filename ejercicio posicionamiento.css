@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    height:100vh;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 30px;
+}
+#general{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+#element1{
+    background-color: rgb(255, 251, 8);
+    position:absolute;
+    width: 300px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+
+}
+#element2{
+    background-color: rgb(223, 26, 26);
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    left: 0px;
+    bottom: 0px;
+}
+ 
+#element3{
+    background-color: rgb(250, 116, 116);
+    position: absolute;   
+    width: 300px;
+    height: 600px;
+    right:0px;
+    bottom:0px
+}
+@media screen and (max-width: 800px){
+    #element3{
+        top:600px;
+        left:0px;
+    }
+}
